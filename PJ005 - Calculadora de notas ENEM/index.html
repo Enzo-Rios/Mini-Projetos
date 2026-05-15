@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do ENEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calculadora de notas ENEM</h1>
+    </header>
+
+    <section>
+
+        <div id="cadastro">
+            <p>Digite seu Nome:
+                <input type="text" name="nome" id="txtnome">
+            </p>
+            <h2>Digite suas notas abaixo!</h2>
+        </div>
+        <div id="notas">
+            <p> Nota de Português:
+                <input type="number" name="portugues" id="txtpor">
+            </p>
+            <p>Nota de Matemática:
+                <input type="number" name="matematica" id="txtmat">
+            </p>
+            <p>Nota de Naturezas:
+                <input type="number" name="natureza" id="txtnat">
+            </p>
+            <p>Nota de Humanas:
+                <input type="number" name="humanas" id="txthum">
+            </p>
+            <p>Redação:
+                <input type="number" name="redacao" id="txtred">
+            </p>
+            <p class="botao"><input type="button" value="Calcular" onclick="calcular()"></p>
+        </div>
+        <div id="res">Coloque suas notas acima para obter um resultado!</div>
+
+    </section>
+
+    <footer>
+        <p>&copy;CtrlNzo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

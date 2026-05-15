@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de aprovação automático</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="topo">
+        <h1>Sistema de Aprovação Automático</h1>
+        <h3>Cadastre o aluno abaixo!</h3>
+    </header>
+
+    <section>
+        <div id="cadastro">
+           <p> Nome do Aluno(a): 
+                <input type="text" name="nome" id="txtnome">
+            </p>
+            <h2>Notas</h2>
+            <p>Português:
+                <input type="number" name="portugues" id="txtpor">
+            </p>
+            <p>Matemática:
+                <input type="number" name="matematica" id="txtmat">
+            </p>
+            <p>História:
+                <input type="number" name="historia" id="txthis">
+            </p>
+            <p>Geografia: 
+                <input type="number" name="geografia" id="txtgeo">
+            </p>
+            <p>Biologia:
+                <input type="number" name="biologia" id="txtbio">
+            </p>
+            <p>Química: 
+                <input type="number" name="quimica" id="txtqui">
+            </p>
+            <p>Física: 
+                <input type="number" name="fisica" id="txtfis">
+            </p>
+            <p id="botao"><input type="button" value="Adicionar" onclick="adicionar()" ></p>
+        </div>
+        <div id="res"> Adicione um aluno na sua lista!</div>
+    </section>
+
+    <footer>
+        <p>&copy;CtrlNzo</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

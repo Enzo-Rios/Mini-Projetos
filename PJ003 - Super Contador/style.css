@@ -1,0 +1,40 @@
+body{
+    background-color: blueviolet;
+    font: normal 15pt arial;
+}
+
+header{
+    text-align: center;
+    color: white;
+    
+}
+
+section{
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+input[type="button"]{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: rgb(106, 37, 170);
+}
+#res{
+    margin-top: 20px;
+}
+
+footer{
+    font-style: italic;
+    text-align: center;
+    color: white;
+}

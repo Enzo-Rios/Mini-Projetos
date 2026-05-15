@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Aventureiro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro Aventureiro</h1>
+    </header>
+    
+    <section>
+        <div>
+        <p>Nome:
+            <input type="text" name="txtnome" id="txtnome">
+        </p>
+        <p>Ano de nascimento:
+            <input type="number" name="txtano" id="txtano">
+        </p>
+        <p>Classe:
+            <input type="radio" name="radclass" id="gue" checked>
+            <label for="gue">Guerreiro</label>
+            <input type="radio" name="radclass" id="mag">
+            <label for="mag">Mago</label>
+            <input type="radio" name="radclass" id="arq">
+            <label for="arq">Arqueiro</label>
+        </p>
+        <p>
+            <input type="button" value="Cadastrar" onclick="cadastrar()">
+        </p>
+        </div>
+        <div id  = "res">
+            Preencha os dados para ver o resultado!
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; CtrlNzo </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

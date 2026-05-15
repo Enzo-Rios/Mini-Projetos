@@ -1,0 +1,39 @@
+body{
+    background-color: #222222;
+    font: normal 15pt arial;
+}
+
+h1{
+    color: #C2D8C4;
+    text-align: center;
+}
+
+section{
+    background-color: #C2D8C4;
+    color: #222222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+input[type=number]{
+    background-color: #222222;
+    color: #C2D8C4;
+}
+input[type=button]{
+    background-color: #C2D8C4;
+    color: #222222;
+    border-radius: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    opacity: 0.9;
+    transform: scale(1.10);
+}
+
+footer{
+    color: #C2D8C4;
+    text-align: center;
+}

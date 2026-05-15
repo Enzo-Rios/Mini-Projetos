@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Missões RPG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>RPG CtrlNzo</h1>
+    </header>
+
+    <section>
+        <div>
+            <p> Nome:
+                <input type="text" name="txtnome" id="txtnome">
+            </p>
+
+            <p>Classe:
+                <input type="radio" name="radclass" id="gue" checked>
+                <label for="gue">Guerreiro</label>
+                <input type="radio" name="radclass" id="mag">
+                <label for="mag">Mago</label>
+                <input type="radio" name="radclass" id="arq">
+                <label for="arq">Arqueiro</label>
+            </p>
+            <p>Nivel de Dificuldade:
+                <select name="txtnvl" id="txtnvl">
+                    <option value="facil">Fácil</option>
+                    <option value="medio">Médio</option>
+                    <option value="dificil">Difícil</option>
+                </select>
+            </p>
+            <p>Equipamentos:
+                <input type="checkbox" name="chkitem" id="esp">
+                <label for="esp">Espada</label>
+                <input type="checkbox" name="chkitem" id="poc">
+                <label for="poc">Poção</label>
+                <input type="checkbox" name="chkitem" id="esc">
+                <label for="esc">Escudo</label>
+                <input type="checkbox" name="chkitem" id="arc">
+                <label for="arc">Arco </label>
+            </p>
+
+            <p class="botao">
+                <input type="button" value="Iniciar Missão" onclick="iniciar()">
+            </p>
+        </div>
+        <div id="res">
+            Faça suas escolhas para iniciar a missão!
+        </div>
+
+        <div id="resultado-final"></div>
+    </section>
+
+    <footer>
+        <p>&copy; CtrlNzo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

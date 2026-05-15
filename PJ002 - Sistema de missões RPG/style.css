@@ -1,0 +1,70 @@
+body {
+    font: normal 15pt arial;
+    background-color: #200F07;
+}
+
+h1{
+    color: #C5E384;
+    text-align: center
+    
+}
+
+section {
+    color: #200F07;
+    margin: auto;
+    width: 500px;
+    padding: 16px;
+    text-align:justify;
+    background-color: #C5E384;
+    border-radius: 8px;
+   
+}
+.botao{
+    text-align: center;
+}
+
+input[type="button"]{
+    cursor: pointer;
+    padding: 10px;
+    color: #C5E384;
+    border-radius: 20px;
+    border:none;
+    background-color: #200F07;
+    transition: 0.3s;
+    
+    
+}
+input[type="button"]:hover{
+    background-color: #C5E384;
+    color: #200F07;
+    border: 2px solid #200F07;
+}
+#res{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+#foto{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#resultado-final{
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+    
+    
+
+footer{
+    margin: auto;
+    text-align: center;
+    color: #C5E384;
+    font-size: 12pt;
+}

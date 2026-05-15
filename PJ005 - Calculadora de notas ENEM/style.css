@@ -1,0 +1,104 @@
+body{
+font: normal 15pt arial;
+background-color: #17637d;
+}
+
+h1{
+    color: #dec680;
+    text-align: center;
+    font-size: 35pt;
+    
+}
+
+section{
+    background-color: #dec680;
+    color: #17637d;
+    padding: 16px;
+    border-radius: 10px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+}
+section:hover{
+transform: scale(1.01);
+
+
+}
+
+input{
+    border: none;
+}
+#cadastro{
+    text-align: center;
+    color: #17637d;
+    
+}
+
+h2{
+    font-size: 20pt;  
+}
+
+input[type = text]{
+    padding: 4px;
+    color: #dec680;
+    background-color: #17637d;
+    border-radius: 10px;
+    text-align: center;
+
+}
+#notas{
+    background-color: #17637d;
+    color:#dec680;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+input[type = number]{
+    padding: 4px;
+    color: #17637d;
+    background-color: #dec680;
+    border-radius: 10px;
+    text-align: center;
+}
+.botao{
+    text-align: center;
+}
+input[type = button]{
+    padding: 10px;
+    color: #17637d;
+    background-color: #dec680;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type = button]:hover{
+    background-color: #17637d;
+    color: #dec680;
+    border: 2px solid #dec680;
+}
+#res{
+    text-align: center;
+    margin-top: 20px;
+    background-color: #17637d;
+    color: #dec680;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.5);
+    
+}
+#foto{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+footer{
+    text-align: center;
+    font-style: italic;
+    color: #dec680;
+}
