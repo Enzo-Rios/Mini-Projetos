@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardian v1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Guardian</h1>
+        <h3>Sistema de Controle Escolar</h3>
+    </header>
+
+    <section>
+        <div id="entrada">
+            <p class="alunoEn">Aluno: 
+                <input type="text" name="Alunoentrada" id="txtalunoEn">
+            </p>
+            <p class="turma">Turma:
+                <select name="Turma" id="txtturmaEntrada">
+                    <option value="Berçário 1A">Berçário 1A</option>
+                    <option value="Berçário 2A">Berçário 2A</option>
+                    <option value="Berçário 2B">Berçário 2B</option>
+                    <option value="Berçário 2C">Berçário 2C</option>
+                    <option value="Maternal A">Maternal A</option>
+                    <option value="Maternal B">Maternal B</option>
+                </select>
+            </p>
+            <p class="horarioEn"> Entrada:
+                <input type="time" name="dth" id="txtdth">
+            </p>
+            <p class="respEn"> Quem trouxe:
+                <input type="text" name="responsavelEn" id="txtrespEn">
+            </p>
+            <input type="button" value="Adicionar" onclick="adicionar()">
+        </div>
+
+        <div id="saida">
+            <p class="alunoSai">Aluno:
+                <input type="text" name="Alunosaida" id="txtalunoSai">
+            </p>
+             <p class="turma">Turma:
+                <select name="Turma" id="txtturmaSai">
+                    <option value="Berçário 1A">Berçário 1A</option>
+                    <option value="Berçário 2A">Berçário 2A</option>
+                    <option value="Berçário 2B">Berçário 2B</option>
+                    <option value="Berçário 2C">Berçário 2C</option>
+                    <option value="Maternal A">Maternal A</option>
+                    <option value="Maternal B">Maternal B</option>
+                </select>
+            </p>
+            <p class="horarioSai">Saída:
+                <input type="time" name="dts" id="txtdts">
+            </p>
+            <p class="respSai">Quem pegou:
+                <input type="text" name="responsavelSai" id="txtrespSai">
+            </p>
+            <input type="button" value="Saída" onclick="saida()">
+        </div>
+
+        <div id="lista">
+            Adicione os alunos para obter sua lista!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; CtrlNzo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
